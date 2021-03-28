@@ -1,0 +1,57 @@
+body { 
+    width: 30%;
+    margin-left: 35%;
+}
+body .text-input {
+    resize: none;
+    width: 95%;
+    align-items: center;
+    background-color: #EDF9FF;
+    border-color: #57C7FF;
+}
+/* .textarea::placeholder {
+    color: #47BBF5;
+}*/
+.text-display {
+    text-align: center;
+}
+#keyboard_keys {
+    background-color: #303030;
+    width: 100%;
+}
+.keys, .space-button, .long-button, .longer-button, .caps-button{
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.keys {
+    height: 45px;
+    width: 7%;
+    margin: 0.5px;
+}
+.longer-button {
+    height: 45px;
+    width: 20%;
+    margin: 0.5px;
+}
+.long-button {
+    height: 45px;
+    width: 28%;
+    margin: 0.5px;
+}
+.caps-button {
+    height: 45px;
+    width: 28%;
+    margin: 0.5px;
+    position: relative;
+}
+.caps-button:focus {
+    color: greenyellow;
+}
+.space-button {
+    height: 45px;
+    width: 70%;
+    margin: 0.5px;
+}
